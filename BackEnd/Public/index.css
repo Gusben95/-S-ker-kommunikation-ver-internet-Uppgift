@@ -1,0 +1,150 @@
+body{
+  background: rgb(35, 31, 66);
+ position: relative;
+ 
+}
+#container{
+position: relative;
+width: 375px;
+height: 667px;
+text-align: center;
+background: #231F42;
+margin-left: 45%;
+margin-top: 10%;
+border: 1px solid black;
+box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.5); 
+
+}
+#title{
+  position: relative;
+  margin: auto;
+  margin-left: 35%;
+  margin-top: 5%;
+  font-family: Sansita One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F56B9A;
+}
+
+#listaKonserter{
+  width: 90%;
+  height: 80%;
+  position: absolute;
+  background: rgb(35, 31, 66);
+  bottom: 1%;
+  margin-left: 5%;
+  
+}
+
+
+.parContainer:hover{
+  cursor:pointer;
+  background-color: rgb(35, 31, 90);
+  box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.5); 
+}
+
+.parContainer{
+  width: 100%;
+  height: 15%;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 5%;
+  transition: box-shadow .3s;
+}
+.datumContainer{
+  position: relative;
+  width: 20%;
+  height: 95%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 3px;
+  justify-content: center;
+}
+.datum{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  border-radius: 3px;
+
+}
+.konsertContainer{
+  position: relative;
+  width: 69%;
+  height: 95%;
+  justify-content: space-between;
+
+}
+.konserter{
+  position: relative;
+  left: 2px;
+  margin: auto;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px #F56B9A;
+}
+.plats{
+position: relative;
+left: 2px;
+margin-top: 2%;
+font-family: Fira Sans;
+font-style: italic;
+font-weight: lighter;
+font-size: 12px;
+line-height: 14px;;
+color: rgba(255, 255, 255, 0.8);
+text-align:left;
+
+}
+.tid{
+  position: relative;
+  margin: 0;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #D0D0D0;
+  }
+
+
+
+.pris{
+position: relative;
+margin: 0;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+color: #37AEAB;
+}
+
+.tidPrisDiv{
+position: absolut;
+margin-top: 1%;
+bottom: 1%;
+width: 100%;
+height: 25%; 
+display:flex;
+justify-content: space-between;
+border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+}
